@@ -61,12 +61,6 @@ function keyUp(keyCode) {
 function keyUpPreprocess(e) {
     var keyCode = e.keyCode | 0;
     switch (keyCode | 0) {
-        case 219:
-            lowerVolume();
-            break;
-        case 221:
-            raiseVolume();
-            break;
         case 51:
             Iodine.incrementSpeed(0.10);
             break;
